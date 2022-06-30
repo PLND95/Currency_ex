@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Chuyển đổi tiền tệ</h2>
+    <form action="">
+        <table>
+            <tr>
+                <td><b>Amount</b></td>
+                <td><input type="number" id="amount"></td>
+            </tr>
+            <tr>
+                <td><b>From Currency</b></td>
+                <td>
+                    <select name="" id="currency">
+                        <option value="vnd">Vietnam</option>
+                        <option value="usd">USD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>To Currency</b></td>
+                <td>
+                    <select name="" id="currency_1">
+                        <option value="usd">USD</option>
+                        <option value="vnd">Vietnam</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="convert();">convert</button></td>
+            </tr>
+        </table>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
+<script src="index.js"></script>
